@@ -35,51 +35,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Brainster",
+    location: "Skopje, North Macedonia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Front-End Development Course",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Front-End Developer (Gsix)",
+    location: "Skopje, North Macedonia",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Developer for online job platform application.",
+    icon: React.createElement(FaReact),
+    date: "2020 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-End Developer (Digital Orange)",
+    location: "Skopje, North Macedonia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Developer for online booking system - passing data and layout integration. I also upskilled to full-stack.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021",
+  },
+  {
+    title: "Full-Stack Developer (ESOF Starter)",
+    location: "Bitola, North Macedonia",
+    description:
+      "Developer for layout integration and data passing.",
+    icon: React.createElement(FaReact),
+    date: "2021",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Starter Kit",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Dva-L Bilans",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["Wordrpress", "Wordpress Plugins", "SEO"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "ComfyHug",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Shopify"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -101,5 +109,6 @@ export const skillsData = [
   "Wordpress",
   "Shopify",
   "Docker",
+  "Docker Compose",
   "MySql",
 ] as const;
