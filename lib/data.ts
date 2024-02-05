@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import starter from "@/public/starter.png";
+import dvalBilans from "@/public/dvalbilans.png";
+import comfyHug from "@/public/comfyhug.png";
 
 export const links = [
   {
@@ -74,21 +74,21 @@ export const projectsData = [
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
-    imageUrl: corpcommentImg,
+    imageUrl: starter,
   },
   {
     title: "Dva-L Bilans",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["Wordrpress", "Wordpress Plugins", "SEO"],
-    imageUrl: rmtdevImg,
+    imageUrl: dvalBilans,
   },
   {
     title: "ComfyHug",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["Shopify"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: comfyHug,
   },
 ] as const;
 
