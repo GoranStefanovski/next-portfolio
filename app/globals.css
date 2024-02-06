@@ -18,3 +18,7 @@ html {
         margin: auto auto !important;    
     }
 }
+
+.borderBlack {
+    @apply border border-black/10
+}

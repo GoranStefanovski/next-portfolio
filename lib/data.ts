@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import starter from "@/public/starter.png";
 import dvalBilans from "@/public/dvalbilans.png";
@@ -46,7 +47,15 @@ export const experiencesData = [
     title: "Front-End Developer (Gsix)",
     location: "Skopje, North Macedonia",
     description:
-      "Developer for online job platform application.",
+      "Changes for company's website",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020",
+  },
+  {
+    title: "Front-End Developer (Gsix)",
+    location: "Skopje, North Macedonia",
+    description:
+      "Developer for online job platform application",
     icon: React.createElement(FaReact),
     date: "2020 - 2021",
   },
@@ -54,17 +63,17 @@ export const experiencesData = [
     title: "Front-End Developer (Digital Orange)",
     location: "Skopje, North Macedonia",
     description:
-      "Developer for online booking system - passing data and layout integration. I also upskilled to full-stack.",
-    icon: React.createElement(FaReact),
+      "Developer for online booking system - passing data and layout integration. I also upskilled to full-stack",
+    icon: React.createElement(FaVuejs),
     date: "2021",
   },
   {
     title: "Full-Stack Developer (ESOF Starter)",
     location: "Bitola, North Macedonia",
     description:
-      "Developer for layout integration and data passing.",
-    icon: React.createElement(FaReact),
-    date: "2021",
+      "Developer for layout integration and data passing",
+    icon: React.createElement(FaVuejs),
+    date: "2021 - present",
   },
 ] as const;
 

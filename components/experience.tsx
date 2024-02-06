@@ -11,10 +11,10 @@ import { experiencesData } from '@/lib/data';
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
-  const {ref, inView} = useSectionInView("Projects", 0.5);
+  const {ref, inView} = useSectionInView("Experience", 0.5);
 
   return (
-    <section ref={ref} id="experience">
+    <section ref={ref} id="experience" className='scroll-mt-28 mb-28 sm:mb-40 '>
         <SectionHeading>My Experience</SectionHeading>
         <VerticalTimeline lineColor="" animate={true}>
             {

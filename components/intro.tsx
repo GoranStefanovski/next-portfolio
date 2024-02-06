@@ -9,9 +9,12 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import portrait from '@/public/portrait.png';
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   const {ref} = useSectionInView("Home", 0.5);
+  const { 
+    setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -49,7 +52,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-                🤖
+                👋
                 </motion.span>
             </div>
         </div>
