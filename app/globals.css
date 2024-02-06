@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    --line-color: #e5e7eb;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    width: max-content !important;
+    margin: auto 15px;
+}
+
+
+@media (max-width: 450px) {
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        width: 100% !important;
+        margin: auto auto !important;    
+    }
+}
