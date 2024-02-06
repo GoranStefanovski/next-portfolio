@@ -6,6 +6,10 @@ html {
     --line-color: #e5e7eb;
 }
 
+html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
+  }
+
 .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
     width: max-content !important;
     margin: auto 15px;
