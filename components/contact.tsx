@@ -7,7 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contact", 0.75);
+  const { ref } = useSectionInView("About", 0.75);
 
   return (
     <motion.section
