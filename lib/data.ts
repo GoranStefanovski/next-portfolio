@@ -27,11 +27,11 @@ export const links = [
   {
     name: "Experience",
     hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
+  }
+  // {
+  //   name: "Contact",
+  //   hash: "#contact",
+  // },
 ] as const;
 
 export const experiencesData = [
@@ -39,15 +39,15 @@ export const experiencesData = [
     title: "Brainster",
     location: "Skopje, North Macedonia",
     description:
-      "Front-End Development Course",
+      "Front-End Development Bootcamp",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer (Gsix)",
+    title: "Front-End Developer (Netra)",
     location: "Skopje, North Macedonia",
     description:
-      "Changes for company's website",
+      "Layouting changes for company's website",
     icon: React.createElement(CgWorkAlt),
     date: "2020",
   },
@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Front-End Developer (Gsix)",
     location: "Skopje, North Macedonia",
     description:
-      "Developer for online job platform application",
+      "Responsible for responsive design and populating data.",
     icon: React.createElement(FaReact),
     date: "2020 - 2021",
   },
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Front-End Developer (Digital Orange)",
     location: "Skopje, North Macedonia",
     description:
-      "Developer for online booking system - passing data and layout integration. I also upskilled to full-stack",
+      "Development of a restful API for communicating with a partnering web application. This is where i upscaled to full-stack.",
     icon: React.createElement(FaVuejs),
     date: "2021",
   },
@@ -71,7 +71,7 @@ export const experiencesData = [
     title: "Full-Stack Developer (ESOF Starter)",
     location: "Bitola, North Macedonia",
     description:
-      "Developer for layout integration and data passing",
+      "Maintaining Front-End designs and PHP API functionalities",
     icon: React.createElement(FaVuejs),
     date: "2021 - present",
   },
@@ -81,21 +81,21 @@ export const projectsData = [
   {
     title: "Starter Kit",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Custom CMS - Admin Panel in Vue.js framework backed by a Laravel RESTful API.",
     tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
     imageUrl: starter,
   },
   {
     title: "Dva-L Bilans",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Presentational Wordpress site for local business.",
     tags: ["Wordrpress", "Wordpress Plugins", "SEO"],
     imageUrl: dvalBilans,
   },
   {
     title: "ComfyHug",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Online clothing shop powered by Shopify.",
     tags: ["Shopify"],
     imageUrl: comfyHug,
   },
