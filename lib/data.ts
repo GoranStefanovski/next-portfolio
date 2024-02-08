@@ -73,7 +73,7 @@ export const experiencesData = [
     description:
       "Maintaining Front-End designs and PHP API functionalities",
     icon: React.createElement(FaVuejs),
-    date: "2021 - present",
+    date: "2021 - 2024",
   },
 ] as const;
 
