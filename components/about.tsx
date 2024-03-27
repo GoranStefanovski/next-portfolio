@@ -22,7 +22,7 @@ export default function About() {
         After finishing high school, I decided to pursue my
         passion for programming and I joined a coding bootcamp to study{" "}
         <span className="font-medium">font-end development</span>.{" "}
-        It was an exciting journey where I learned HTML, CSS and JavaScript which paved the way to creating exciting user interfaces..
+        It was an exciting journey where I learned HTML, CSS and JavaScript which paved the way to creating exciting user interfaces.
       </p>
       <br/>
 

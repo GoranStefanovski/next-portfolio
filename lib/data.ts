@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaLaravel, FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import starter from "@/public/starter.png";
@@ -66,6 +66,14 @@ export const experiencesData = [
       "Development of a restful API for communicating with a partnering web application. This is where i upscaled to full-stack.",
     icon: React.createElement(FaVuejs),
     date: "2021",
+  },
+  {
+    title: "Full-Stack Developer (PixelPai)",
+    location: "Remote",
+    description:
+      "Building Laravel CMS application from scratch",
+    icon: React.createElement(FaLaravel),
+    date: "2021 - 2022",
   },
   {
     title: "Full-Stack Developer (ESOF Starter)",
