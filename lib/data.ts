@@ -73,7 +73,7 @@ export const experiencesData = [
     description:
       "Building Laravel CMS application from scratch",
     icon: React.createElement(FaLaravel),
-    date: "2021 - 2022",
+    date: "2021",
   },
   {
     title: "Full-Stack Developer (ESOF Starter)",
