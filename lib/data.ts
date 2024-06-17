@@ -44,7 +44,7 @@ export const experiencesData = [
     date: "2019",
   },
   {
-    title: "Front-End Developer (Netra)",
+    title: "Front-End Intern (Netra)",
     location: "Skopje, North Macedonia",
     description:
       "Layouting changes for company's website",
