@@ -19,20 +19,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After finishing high school, I decided to pursue my
-        passion for programming and I joined a coding bootcamp to study{" "}
-        <span className="font-medium">font-end development</span>.{" "}
-        It was an exciting journey where I learned HTML, CSS and JavaScript which paved the way to creating exciting user interfaces.
+        After completing high school, I decided to follow my passion for programming by enrolling in a coding bootcamp focused on{" "}
+        <span className="font-medium">front-end development</span>.{" "}
+        During this time, I gained expertise in HTML, CSS, and JavaScript, laying a solid foundation for creating engaging user interfaces.
       </p>
-      <br/>
-
+      <br />
+    
       <p className="mb-3">
-        I&apos;m passionate about creating <span className="font-medium">user-friendly</span> interfaces. 
-        With my expertise{" "}
-        I carefully design <span className="font-medium">every detail</span> to ensure a visually stunning experience on all devices.
-        In addition to front-end design, I specialize in building sustainable backend solutions.
-        From database management to API development - I ensure <span className="font-medium">excellent integration</span> with the user interface 
-        to provide a great user experience.{" "}
+        My passion lies in crafting <span className="font-medium">intuitive and visually appealing</span> designs, 
+        where every detail is meticulously considered to ensure a seamless experience across all devices. 
+        In addition to front-end design, I specialize in building robust backend solutions, including database management and API development, 
+        to achieve <span className="font-medium">smooth integration</span> with the user interface for an optimal user experience.{" "}
       </p>
     </motion.section>
 
