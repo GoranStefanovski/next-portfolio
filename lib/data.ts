@@ -48,7 +48,7 @@ export const experiencesData = [
     location: "Skopje, North Macedonia",
     description:
       "Layouting changes for company's website",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "2020",
   },
   {
@@ -122,6 +122,8 @@ export const skillsData = [
   "VueX",
   "Nuxt.js",
   "Node.js",
+  "Laravel",
+  "PHP",
   "Git",
   "Tailwind",
   "Bootstrap",
