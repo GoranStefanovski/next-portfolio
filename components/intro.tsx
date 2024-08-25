@@ -66,7 +66,7 @@ export default function Intro() {
         <span className="font-bold">full-stack developer</span> with about{" "}
         <span className="font-bold">half a decade</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Vue (Nuxt.js)</span>.
+        <span className="underline">Vue (Nuxt.js)</span> using <span className="underline">TypeScript</span>.
       </motion.h1>
 
       <motion.div
