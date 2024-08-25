@@ -10,9 +10,9 @@ import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Goran | Personal Portfolio',
+  title: 'Goran Stefanovski | Personal Portfolio',
   description: 'Experienced Full-Stack Developer with 5 years of expertise in building dynamic, responsive web applications, with main focus on React and Vue.js. Explore my portfolio to see how I turn complex ideas into innovative digital solutions.',
-  keywords: 'Full-Stack Developer, Web Development, JavaScript Developer, React Developer, Vue.js Developer, Front-End Development, Back-End Development, Full-Stack Engineer, Responsive Web Design, Modern Web Technologies, Node.js Developer, Software Engineer, Goran Stefanovski Portfolio, Front-End Expert, Web Application Developer'
+  keywords: 'Goran Stefanovski, Tevidma, Full-Stack Developer, Web Development, JavaScript Developer, React Developer, Vue.js Developer, Front-End Development, Back-End Development, Responsive Web Design, Software Engineer, Goran Stefanovski Portfolio, Tevidma Portfolio'
 }
 
 export default function RootLayout({  
