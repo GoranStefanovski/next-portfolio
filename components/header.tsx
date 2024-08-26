@@ -30,6 +30,7 @@ export default function Header() {
             >
               <Link
                 aria-label={link.name}
+                title={link.name}
                 className={clsx(
                   "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
                   {
