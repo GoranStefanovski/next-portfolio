@@ -6,6 +6,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import starter from "@/public/starter.png";
 import dvalBilans from "@/public/dvalbilans.png";
 import comfyHug from "@/public/comfyhug.png";
+import eventlokale from "@/public/evenloktle.png";
+import mousebags from "@/public/mousebags.png";
 
 export const links = [
   {
@@ -86,6 +88,20 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Eventlokale",
+    description:
+      "Swiss-based location and event management platform that helps companies manage their events.",
+    tags: ["Vue", "Vue X", "Nuxt", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
+    imageUrl: eventlokale,
+  },
+  {
+    title: "Mousebags",
+    description:
+      "Online shop for creating custom bags.",
+    tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "SEO"],
+    imageUrl: mousebags,
+  },
   {
     title: "Starter Kit",
     description:
