@@ -70,20 +70,20 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Full-Stack Developer (PixelPai)",
-    location: "Remote",
-    description:
-      "Building Laravel CMS application from scratch",
-    icon: React.createElement(FaLaravel),
-    date: "2021",
-  },
-  {
     title: "Full-Stack Developer (ESOF Starter)",
     location: "Bitola, North Macedonia",
     description:
-      "Maintaining Front-End designs and PHP API functionalities",
+      "Maintaining and implementing Front-End designs and PHP API functionalities",
     icon: React.createElement(FaVuejs),
-    date: "2021 - present",
+    date: "2021 - 2024",
+  },
+  {
+    title: "Full-Stack Developer (Mobilen Communications Inc)",
+    location: "Bitola, North Macedonia",
+    description:
+      "Maintaining and implementing Front-End designs and PHP API functionalities",
+    icon: React.createElement(FaLaravel),
+    date: "2024 - present",
   },
 ] as const;
 
