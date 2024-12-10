@@ -8,6 +8,7 @@ import dvalBilans from "@/public/dvalbilans.png";
 import comfyHug from "@/public/comfyhug.png";
 import eventlokale from "@/public/evenloktle.png";
 import mousebags from "@/public/mousebags.png";
+import hotelpelister from "@/public/hotelpelister.png"
 
 export const links = [
   {
@@ -96,6 +97,13 @@ export const projectsData = [
     imageUrl: eventlokale,
   },
   {
+    title: "Hotel Pelister | Spa & Resort",
+    description:
+      "Designed and developed user-friendly website for a luxury hotel, showcasing their services and events.",
+    tags: ["React", "TypeScript", "Laravel", "Tilwind", "SEO"],
+    imageUrl: hotelpelister,
+  },
+  {
     title: "Mousebags",
     description:
       "Online shop for creating custom bags.",
@@ -108,13 +116,6 @@ export const projectsData = [
       "Custom CMS - Admin Panel in Vue.js framework backed by a Laravel RESTful API.",
     tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
     imageUrl: starter,
-  },
-  {
-    title: "Dva-L Bilans",
-    description:
-      "Presentational Wordpress site for local business.",
-    tags: ["Wordrpress", "Wordpress Plugins", "SEO"],
-    imageUrl: dvalBilans,
   },
   {
     title: "ComfyHug",
@@ -149,5 +150,6 @@ export const skillsData = [
   "Docker Compose",
   "MySql",
   "Hosting",
-  "Server Maintaining"
+  "Server Maintaining",
+  "SEO"
 ] as const;
