@@ -9,6 +9,7 @@ import comfyHug from "@/public/comfyhug.png";
 import eventlokale from "@/public/evenloktle.png";
 import mousebags from "@/public/mousebags.png";
 import hotelpelister from "@/public/hotelpelister.png"
+import vidmatech from "@/public/vidmatech.png"
 
 export const links = [
   {
@@ -90,11 +91,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "VidmaTech",
+    description:
+      "Developed user-friendly website for an IT Company.",
+    tags: ["React", "Next", "Tailwind", "NextJS Sender", "SEO"],
+    imageUrl: vidmatech,
+    link: 'https://vidmatech.com/'
+  },
+  {
     title: "Eventlokale",
     description:
       "Swiss-based location and event management platform that helps companies manage their events.",
     tags: ["Vue", "Vue X", "Nuxt", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
     imageUrl: eventlokale,
+    link: 'https://eventlokale.ch/'
   },
   {
     title: "Hotel Pelister | Spa & Resort",
@@ -102,6 +112,7 @@ export const projectsData = [
       "Designed and developed user-friendly website for a luxury hotel, showcasing their services and events.",
     tags: ["React", "TypeScript", "Laravel", "Tilwind", "SEO"],
     imageUrl: hotelpelister,
+    link: 'https://hotelpelister.com/'
   },
   {
     title: "Mousebags",
@@ -109,6 +120,7 @@ export const projectsData = [
       "Online shop for creating custom bags.",
     tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "SEO"],
     imageUrl: mousebags,
+    link: 'https://mousebags.net/'
   },
   {
     title: "Starter Kit",
@@ -116,6 +128,7 @@ export const projectsData = [
       "Custom CMS - Admin Panel in Vue.js framework backed by a Laravel RESTful API.",
     tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
     imageUrl: starter,
+    link: '#'
   },
   {
     title: "ComfyHug",
@@ -123,6 +136,7 @@ export const projectsData = [
       "Online clothing shop powered by Shopify.",
     tags: ["Shopify"],
     imageUrl: comfyHug,
+    link: 'https://comfyhug.mk/'
   },
 ] as const;
 
