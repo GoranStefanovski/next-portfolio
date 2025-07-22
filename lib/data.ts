@@ -10,6 +10,7 @@ import eventlokale from "@/public/evenloktle.png";
 import mousebags from "@/public/mousebags.png";
 import hotelpelister from "@/public/hotelpelister.png"
 import vidmatech from "@/public/vidmatech.png"
+import travel2fair from "@/public/travel2fair.png"
 
 export const links = [
   {
@@ -51,7 +52,7 @@ export const experiencesData = [
     title: "Front-End Intern (Netra)",
     location: "Skopje, North Macedonia",
     description:
-      "Layouting changes for company's website",
+      "Worked on layout and design adjustments for the company website. Collaborated with senior developers to implement UI improvements and gain practical experience with version control, responsive styling, and pixel-perfect layouting",
     icon: React.createElement(FaReact),
     date: "2020",
   },
@@ -59,7 +60,7 @@ export const experiencesData = [
     title: "Front-End Developer (Gsix)",
     location: "Skopje, North Macedonia",
     description:
-      "Responsible for responsive design and populating data.",
+      "Developed and maintained front-end components using React. Responsible for implementing responsive UIs, integrating APIs, and ensuring design consistency across devices. Gained experience working in Agile environments and collaborating with cross-functional teams",
     icon: React.createElement(FaReact),
     date: "2020 - 2021",
   },
@@ -67,7 +68,7 @@ export const experiencesData = [
     title: "Front-End Developer (Digital Orange)",
     location: "Skopje, North Macedonia",
     description:
-      "Development of a restful API for communicating with a partnering web application. This is where i upscaled to full-stack.",
+      "Led front-end developer using Vue.js and Nuxt.js, building modular and scalable components. Developed a RESTful API to facilitate communication between systems, marking the transition into full-stack development. Took initiative in code optimization and improving developer workflows",
     icon: React.createElement(FaVuejs),
     date: "2021",
   },
@@ -75,7 +76,7 @@ export const experiencesData = [
     title: "Full-Stack Developer (ESOF Starter)",
     location: "Bitola, North Macedonia",
     description:
-      "Maintaining and implementing Front-End designs and PHP API functionalities",
+      "Handled both front-end and back-end tasks using Vue.js and Laravel. Implemented complex UI logic, developed custom PHP APIs, and maintained database interactions. Played a key role in feature development, bug fixing, and performance improvements",
     icon: React.createElement(FaVuejs),
     date: "2021 - 2024",
   },
@@ -83,7 +84,7 @@ export const experiencesData = [
     title: "Full-Stack Developer (Mobilen Communications Inc)",
     location: "Bitola, North Macedonia",
     description:
-      "Maintaining and implementing Front-End designs and PHP API functionalities",
+      "Designing and extending Laravel-based APIs for internal systems. Working closely with designers and project managers to ensure feature completeness and UX quality. Handling deployment, code reviews, and process improvements",
     icon: React.createElement(FaLaravel),
     date: "2024 - present",
   },
@@ -93,50 +94,65 @@ export const projectsData = [
   {
     title: "VidmaTech",
     description:
-      "Developed user-friendly website for an IT Company.",
-    tags: ["React", "Next", "Tailwind", "NextJS Sender", "SEO"],
+      "Built a responsive and user-friendly company website using Next.js and Tailwind CSS; Integrated custom components for seamless UX/UI; Deployed and optimized for performance.",
+    tags: ["Next", "Tailwind", "NextJS Sender"],
     imageUrl: vidmatech,
-    link: 'https://vidmatech.com/'
+    link: 'https://vidmatech.com/',
+    alt: 'Vidmatech'
+  },
+  {
+    title: "Travel2Fair",
+    description:
+      "Developed and maintained an event management platform with Angular frontend and Laravel backend; Implemented Docker-based development workflow for consistency across environments.",
+    tags: ["Angular", "Laravel", "Docker"],
+    imageUrl: travel2fair,
+    link: 'https://travel2fair.com/',
+    alt: 'Travel2Fair'
   },
   {
     title: "Eventlokale",
     description:
-      "Swiss-based location and event management platform that helps companies manage their events.",
-    tags: ["Vue", "Vue X", "Nuxt", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
+      "Delivered a scalable venue request booking system using Nuxt.js and Laravel API; Worked on complex booking logic, caching, and Dockerized deployment.",
+    tags: ["Vue", "Nuxt", "Laravel", "Docker"],
     imageUrl: eventlokale,
-    link: 'https://eventlokale.ch/'
+    link: 'https://eventlokale.ch/',
+    alt: 'Eventlokale'
   },
   {
     title: "Hotel Pelister | Spa & Resort",
     description:
-      "Designed and developed user-friendly website for a luxury hotel, showcasing their services and events.",
-    tags: ["React", "TypeScript", "Laravel", "Tilwind", "SEO"],
+      "Designed and developed a luxury hotel website with React and Laravel; Focused on showcasing services/events with modern UI and Tailwind integration.",
+    tags: ["React", "Laravel", "Tilwind"],
     imageUrl: hotelpelister,
-    link: 'https://hotelpelister.com/'
+    link: 'https://hotelpelister.com/',
+    alt: 'Hotel Pelister - Spa & Resort'
   },
   {
     title: "Mousebags",
     description:
-      "Online shop for creating custom bags.",
-    tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "SEO"],
+      "Created a Vue.js and Laravel-based eCommerce platform for custom bag creation; Integrated Bootstrap for quick UI development and responsive design.",
+    tags: ["Vue", "Laravel", "Bootstrap"],
     imageUrl: mousebags,
-    link: 'https://mousebags.net/'
+    link: 'https://mousebags.net/',
+    alt: 'Mousebags'
   },
   {
     title: "Starter Kit",
     description:
       "Custom CMS - Admin Panel in Vue.js framework backed by a Laravel RESTful API.",
-    tags: ["Vue", "Vue X", "Laravel", "Bootstrap", "Docker", "Docker Compose", "SEO"],
+    tags: ["Vue", "Laravel", "Docker"],
     imageUrl: starter,
-    link: '#'
+    link: '#',
+    alt: 'Starter Kit'
   },
   {
     title: "ComfyHug",
     description:
-      "Online clothing shop powered by Shopify.",
+      "Customized and optimized Shopify for an online clothing store; Enhanced the storefront and checkout flow for improved user experience.",
     tags: ["Shopify"],
     imageUrl: comfyHug,
-    link: 'https://comfyhug.mk/'
+    link: 'https://comfyhug.mk/',
+    alt: 'ComfyHug'
   },
 ] as const;
 
