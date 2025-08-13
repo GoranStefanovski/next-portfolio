@@ -76,15 +76,15 @@ export const experiencesData = [
     title: "Full-Stack Developer (ESOF Starter)",
     location: "Bitola, North Macedonia",
     description:
-      "Handled both front-end and back-end tasks using Vue.js and Laravel. Implemented complex UI logic, developed custom PHP APIs, and maintained database interactions. Played a key role in feature development, bug fixing, and performance improvements",
+      "Maintaining front-end designs and PHP API functionalities, ensuring seamless integration between user interfaces and backend systems. Implementing updates, fixing issues, and optimizing performance for a smooth user experience",
     icon: React.createElement(FaVuejs),
     date: "2021 - 2024",
   },
   {
-    title: "Full-Stack Developer (Mobilen Communications Inc)",
+    title: "Back-End Developer (Mobilen Communications Inc)",
     location: "Bitola, North Macedonia",
     description:
-      "Designing and extending Laravel-based APIs for internal systems. Working closely with designers and project managers to ensure feature completeness and UX quality. Handling deployment, code reviews, and process improvements",
+      "Designing and extending Laravel-based APIs for internal systems, integrating with third-party services, and optimizing performance. Handling deployments, database management, and process improvements to ensure reliability and scalability.",
     icon: React.createElement(FaLaravel),
     date: "2024 - present",
   },
