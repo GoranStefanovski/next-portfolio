@@ -92,7 +92,7 @@ export default function Intro() {
           aria-label="Download CV"
           title="Download CV"
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/GoranStefanovskiCV.pdf"
           download
         >
           Download CV{" "}
