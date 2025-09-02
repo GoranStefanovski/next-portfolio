@@ -11,6 +11,7 @@ import mousebags from "@/public/mousebags.png";
 import hotelpelister from "@/public/hotelpelister.png"
 import vidmatech from "@/public/vidmatech.png"
 import travel2fair from "@/public/travel2fair.png"
+import leavesync from "@/public/leavesync.png";
 
 export const links = [
   {
@@ -91,6 +92,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "LeaveSync",
+    description:
+      "Built a modern leave-management platform; implemented calendar scheduling, role-based access, and holiday tracking; deployed with Docker for scalability and performance.",
+    tags: ["Next", "Vue", "Laravel", "Docker", "MySql"],
+    imageUrl: leavesync,
+    link: 'https://leavesync.com/',
+    alt: 'LeaveSync'
+  },
   {
     title: "VidmaTech",
     description:
