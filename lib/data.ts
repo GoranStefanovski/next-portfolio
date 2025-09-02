@@ -96,7 +96,7 @@ export const projectsData = [
     title: "LeaveSync",
     description:
       "Built a modern leave-management platform; implemented calendar scheduling, role-based access, and holiday tracking; deployed with Docker for scalability and performance.",
-    tags: ["Next", "Vue", "Laravel", "Docker", "MySql"],
+    tags: ["Nuxt", "Vue", "Laravel", "Docker", "MySql"],
     imageUrl: leavesync,
     link: 'https://leavesync.com/',
     alt: 'LeaveSync'
