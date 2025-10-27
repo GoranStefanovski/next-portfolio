@@ -82,7 +82,7 @@ export const experiencesData = [
     date: "2021 - 2024",
   },
   {
-    title: "Back-End Developer (Mobilen Communications Inc)",
+    title: "Full-Stack Engineer (Mobilen Communications Inc)",
     location: "Bitola, North Macedonia",
     description:
       "Designing and extending Laravel-based APIs for internal systems, integrating with third-party services, and optimizing performance. Handling deployments, database management, and process improvements to ensure reliability and scalability.",
