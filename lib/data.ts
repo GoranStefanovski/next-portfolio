@@ -12,6 +12,7 @@ import hotelpelister from "@/public/hotelpelister.png"
 import vidmatech from "@/public/vidmatech.png"
 import travel2fair from "@/public/travel2fair.png"
 import leavesync from "@/public/leavesync.png";
+import nymetrocleaners from "@/public/nymetrocleaners.png";
 
 export const links = [
   {
@@ -101,6 +102,16 @@ export const projectsData = [
     link: 'https://leavesync.com/',
     alt: 'LeaveSync'
   },
+  {                                                                                                                                                                                    
+   title: "NY Metro Cleaner",                                                                                                                                                                
+   description:                                                                                                                                                                       
+     "Built a professional Next.js website for NY Metro Cleaners, showcasing their services and enhancing online presence.", 
+   tags: ["Next", "Tailwind"],                                                                                                                                       
+   imageUrl: nymetrocleaners,                                                                                                                                                               
+   link: 'https://nymetrocleaner.com/',                                                                                                                                                    
+   alt: 'nymetrocleaners'                                                                                                                                                                   
+ },                                                                                                                                                                                   
+
   {
     title: "VidmaTech",
     description:
