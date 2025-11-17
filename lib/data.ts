@@ -191,6 +191,10 @@ export const skillsData = [
   "Docker Compose",
   "MySql",
   "Hosting",
+  "Digital Ocean",
+  "Rumble Cloud",
   "Server Maintaining",
-  "SEO"
+  "SEO",
+  "Linux",
+  "Omarchy"
 ] as const;
