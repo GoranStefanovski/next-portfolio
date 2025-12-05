@@ -13,6 +13,7 @@ import vidmatech from "@/public/vidmatech.png"
 import travel2fair from "@/public/travel2fair.png"
 import leavesync from "@/public/leavesync.png";
 import nymetrocleaners from "@/public/nymetrocleaners.png";
+import kanban from "@/public/kanban.png";
 
 export const links = [
   {
@@ -94,6 +95,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Kanban Board",
+    description:
+      "Personal task tracker I built for organizing my own projects and daily notes; features drag-and-drop cards and status groups. Includes user management with project-specific view permissions.",
+    tags: ["Nest", "Next", "MongoDB"],
+    imageUrl: kanban,
+    link: '#',
+    alt: 'Kanban Board'
+  },
+  {
     title: "LeaveSync",
     description:
       "Built a modern leave-management platform; implemented calendar scheduling, role-based access, and holiday tracking; deployed with Docker for scalability and performance.",
@@ -112,15 +122,15 @@ export const projectsData = [
    alt: 'nymetrocleaners'                                                                                                                                                                   
  },                                                                                                                                                                                   
 
-  {
-    title: "VidmaTech",
-    description:
-      "Built a responsive and user-friendly company website using Next.js and Tailwind CSS; Integrated custom components for seamless UX/UI; Deployed and optimized for performance.",
-    tags: ["Next", "Tailwind", "NextJS Sender"],
-    imageUrl: vidmatech,
-    link: 'https://vidmatech.com/',
-    alt: 'Vidmatech'
-  },
+  // {
+  //   title: "VidmaTech",
+  //   description:
+  //     "Built a responsive and user-friendly company website using Next.js and Tailwind CSS; Integrated custom components for seamless UX/UI; Deployed and optimized for performance.",
+  //   tags: ["Next", "Tailwind", "NextJS Sender"],
+  //   imageUrl: vidmatech,
+  //   link: 'https://vidmatech.com/',
+  //   alt: 'Vidmatech'
+  // },
   {
     title: "Travel2Fair",
     description:
