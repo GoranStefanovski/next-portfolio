@@ -9,7 +9,7 @@ import comfyHug from "@/public/comfyhug.png";
 import eventlokale from "@/public/evenloktle.png";
 import mousebags from "@/public/mousebags.png";
 import hotelpelister from "@/public/hotelpelister.png"
-import vidmatech from "@/public/vidmatech.png"
+import beatit from "@/public/be-at-it.png"
 import travel2fair from "@/public/travel2fair.png"
 import leavesync from "@/public/leavesync.png";
 import nymetrocleaners from "@/public/nymetrocleaners.png";
@@ -94,6 +94,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "be-at-it",
+    description: "A platform for discovering and managing nightlife events and venues. Users browse events by location, genre, and date; save favorites; and mark interest or attendance.",
+      
+    tags: ["CEO & Founder", "React Native", "Vue", "Laravel", "Docker"],
+    imageUrl: beatit,
+    link: 'https://be-at-it.com/',
+    alt: 'be-at-it.com'
+  },
   {
     title: "Kanban Board",
     description:
