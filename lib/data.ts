@@ -121,15 +121,15 @@ export const projectsData = [
     link: 'https://leavesync.com/',
     alt: 'LeaveSync'
   },
-  {                                                                                                                                                                                    
-   title: "NY Metro Cleaner",                                                                                                                                                                
-   description:                                                                                                                                                                       
-     "Built a professional Next.js website for NY Metro Cleaners, showcasing their services and enhancing online presence.", 
-   tags: ["Next", "Tailwind"],                                                                                                                                       
-   imageUrl: nymetrocleaners,                                                                                                                                                               
-   link: 'https://nymetrocleaner.com/',                                                                                                                                                    
-   alt: 'nymetrocleaners'                                                                                                                                                                   
- },                                                                                                                                                                                   
+//   {                                                                                                                                                                                    
+//    title: "NY Metro Cleaner",                                                                                                                                                                
+//    description:                                                                                                                                                                       
+//      "Built a professional Next.js website for NY Metro Cleaners, showcasing their services and enhancing online presence.", 
+//    tags: ["Next", "Tailwind"],                                                                                                                                       
+//    imageUrl: nymetrocleaners,                                                                                                                                                               
+//    link: 'https://nymetrocleaner.com/',                                                                                                                                                    
+//    alt: 'nymetrocleaners'                                                                                                                                                                   
+//  },                                                                                                                                                                                   
 
   // {
   //   title: "VidmaTech",
@@ -185,15 +185,15 @@ export const projectsData = [
     link: '#',
     alt: 'Starter Kit'
   },
-  {
-    title: "ComfyHug",
-    description:
-      "Customized and optimized Shopify for an online clothing store; Enhanced the storefront and checkout flow for improved user experience.",
-    tags: ["Shopify"],
-    imageUrl: comfyHug,
-    link: 'https://comfyhug.mk/',
-    alt: 'ComfyHug'
-  },
+  // {
+  //   title: "ComfyHug",
+  //   description:
+  //     "Customized and optimized Shopify for an online clothing store; Enhanced the storefront and checkout flow for improved user experience.",
+  //   tags: ["Shopify"],
+  //   imageUrl: comfyHug,
+  //   link: 'https://comfyhug.mk/',
+  //   alt: 'ComfyHug'
+  // },
 ] as const;
 
 export const skillsData = [
