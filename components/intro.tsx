@@ -65,9 +65,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I&apos;m Goran.</span> I&apos;m a{" "}
         <span className="font-bold">full-stack developer</span> with about{" "}
-        <span className="font-bold">half a decade</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Vue (Nuxt.js)</span> using <span className="underline">TypeScript</span>.
+        <span className="font-bold">half a decade</span> of experience. I build
+        modern <span className="italic">sites & apps</span>. My current stack is{" "}
+        <span className="underline">React (Next.js)</span> powered by robust <span className="underline">Laravel</span> backends.
       </motion.h1>
 
       <motion.div
