@@ -14,6 +14,7 @@ import travel2fair from "@/public/travel2fair.png"
 import leavesync from "@/public/leavesync.png";
 import nymetrocleaners from "@/public/nymetrocleaners.png";
 import kanban from "@/public/kanban.png";
+import nox from "@/public/nox.png";
 
 export const links = [
   {
@@ -94,6 +95,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "NOX - Encrypted Wireless",
+    description:"I was most in charge of building the React Native mobile UI of the app. I also stepped into backend work when needed - API integration, and security hardening across the stack.",
+      
+    tags: ["React Native", "Laravel"],
+    imageUrl: nox,
+    link: 'https://apps.apple.com/ca/app/nox-encrypted-wireless/id6761551641',
+    alt: 'NOX - Encrypted Wireless'
+  },
   {
     title: "be-at-it",
     description: "A platform for discovering and managing nightlife events and venues. Users browse events by location, genre, and date; save favorites; and mark interest or attendance.",
