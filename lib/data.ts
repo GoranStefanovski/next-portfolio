@@ -97,12 +97,11 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "NOX - Encrypted Wireless",
-    description:"I was most in charge of building the React Native mobile UI of the app. I also stepped into backend work when needed - API integration, and security hardening across the stack.",
-      
-    tags: ["React Native", "Laravel"],
+    description: "I led the team and organized the flows and tasks. My main development work was the React Native UI and Laravel API integrations when needed.",
+    tags: ["React Native", "Laravel "],
     imageUrl: nox,
-    link: 'https://apps.apple.com/ca/app/nox-encrypted-wireless/id6761551641',
-    alt: 'NOX - Encrypted Wireless'
+    link: "https://apps.apple.com/ca/app/nox-encrypted-wireless/id6761551641",
+    alt: "NOX - Encrypted Wireless",
   },
   {
     title: "be-at-it",

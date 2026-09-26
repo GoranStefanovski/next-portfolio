@@ -19,17 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After completing high school, I decided to follow my passion for programming by enrolling in a coding bootcamp focused on{" "}
-        <span className="font-medium">front-end development</span>.{" "}
-        During this time, I gained expertise in HTML, CSS, and JavaScript, laying a solid foundation for creating engaging user interfaces.
+        My journey into development started with a passion for building things and understanding how technology works. I began with front-end development, learning the fundamentals of HTML, CSS, and JavaScript, and gradually expanded into the backend and the wider engineering ecosystem.
       </p>
-      <br />
-    
       <p className="mb-3">
-        My passion lies in crafting <span className="font-medium">intuitive and visually appealing</span> designs, 
-        where every detail is meticulously considered to ensure a seamless experience across all devices. 
-        In addition to front-end design, I specialize in building robust backend solutions, including database management and API development, 
-        to achieve <span className="font-medium">smooth integration</span> with the user interface for an optimal user experience.{" "}
+        Today, I enjoy working on the bigger picture of a product — not just how it looks, but how it works, scales, and fits together. I focus on building clean, intuitive interfaces backed by reliable APIs and well-structured systems, while keeping performance, usability, and maintainability in mind. Over the years, I&apos;ve worked on everything from public-facing websites and mobile applications to complex business platforms and internal systems. I&apos;ve also had the opportunity to lead teams, work directly with clients, and take ownership of projects from idea and architecture through development and delivery.
       </p>
     </motion.section>
 
