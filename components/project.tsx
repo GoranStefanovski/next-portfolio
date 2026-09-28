@@ -2,14 +2,22 @@
 
 import React, { useRef } from 'react'
 import { useScroll, motion, useTransform } from 'framer-motion';
-import { projectsData } from '@/lib/data'
+import type { ProjectCardData } from '@/lib/types';
 import Image from 'next/image';
 import Link from 'next/link';
+import clsx from 'clsx';
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = ProjectCardData;
 
-export default function Project({ title, description, tags, imageUrl, link, alt}:
-ProjectProps) {
+export default function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+  link,
+  alt,
+  imageLayout = "mockup",
+}: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -28,7 +36,7 @@ ProjectProps) {
     className='group mb-3 sm:mb-8 last:mb-0'>
       <section
         className='bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] 
-        hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20"'>
+        hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20'>
         <Link href={link} aria-label={alt} target='_blank'>
         <div className='py-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]'>
           <h3 className='text-2xl font-semibold'>{title}</h3>
@@ -41,18 +49,26 @@ ProjectProps) {
             }
           </ul>
         </div>
-        <Image src={imageUrl} alt={title} quality={95} title={title} className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
-
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
-
-        group-even:right-[initial] group-even:-left-40'/>
+        <Image
+          src={imageUrl}
+          alt={title}
+          quality={95}
+          title={title}
+          className={clsx(
+            "absolute hidden sm:block rounded-lg shadow-2xl transition",
+            imageLayout === "mockup" && [
+              "top-8 -right-40 w-[28.25rem] rounded-t-lg",
+              "group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2",
+              "group-even:right-[initial] group-even:-left-40",
+              "group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2",
+            ],
+            imageLayout === "contained" && [
+              "top-1/2 -translate-y-1/2 right-4 w-[20rem] h-[14.5rem] object-cover object-center",
+              "group-even:right-[initial] group-even:left-4",
+              "group-hover:scale-[1.03]",
+            ]
+          )}
+        />
         </Link>
       </section>
     </motion.div>

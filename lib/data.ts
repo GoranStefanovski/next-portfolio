@@ -15,6 +15,8 @@ import leavesync from "@/public/leavesync.png";
 import nymetrocleaners from "@/public/nymetrocleaners.png";
 import kanban from "@/public/kanban.png";
 import nox from "@/public/nox.png";
+import likeminds from "@/public/likeminds.jpg";
+import type { ProjectCardData } from "@/lib/types";
 
 export const links = [
   {
@@ -24,6 +26,10 @@ export const links = [
   {
     name: "About",
     hash: "#about",
+  },
+  {
+    name: "Highlights",
+    hash: "#highlights",
   },
   {
     name: "Projects",
@@ -94,24 +100,36 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const highlightsData: ProjectCardData[] = [
+  {
+    title: "be-at-it",
+    description: "Built the product from concept to production, including the React Native mobile app, Laravel API/CMS, database, infrastructure, and product direction.",
+      
+    tags: ["Founder & Full-Stack Developer", "React Native", "Vue", "Laravel"],
+    imageUrl: beatit,
+    link: 'https://be-at-it.com/',
+    alt: 'be-at-it.com'
+  },
   {
     title: "NOX - Encrypted Wireless",
-    description: "I led the team and organized the flows and tasks. My main development work was the React Native UI and Laravel API integrations when needed.",
-    tags: ["React Native", "Laravel "],
+    description: "Led the team and organized the development flows and tasks. My main development work was the React Native UI and Laravel API integrations when needed.",
+    tags: ["Team Lead", "React Native", "Laravel"],
     imageUrl: nox,
     link: "https://apps.apple.com/ca/app/nox-encrypted-wireless/id6761551641",
     alt: "NOX - Encrypted Wireless",
   },
   {
-    title: "be-at-it",
-    description: "A platform for discovering and managing nightlife events and venues. Users browse events by location, genre, and date; save favorites; and mark interest or attendance.",
-      
-    tags: ["CEO & Founder", "React Native", "Vue", "Laravel", "Docker"],
-    imageUrl: beatit,
-    link: 'https://be-at-it.com/',
-    alt: 'be-at-it.com'
-  },
+    title: "1st Place - Techstars Startup Weekend Bitola · 2026",
+    description: "Built and pitched a startup with a team during a 54-hour sprint, from idea validation to product development and final presentation.",
+    tags: ["Leadership", "Validation", "Pitching"],
+    imageUrl: likeminds,
+    link: "https://swbitola.com",
+    alt: "Techstars Startup Weekend Bitola · 2026",
+    imageLayout: "contained",
+  }
+];
+
+export const projectsData = [
   {
     title: "Kanban Board",
     description:
