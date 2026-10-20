@@ -51,36 +51,24 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Brainster",
-    location: "Skopje, North Macedonia",
-    description:
-      "Front-End Development Bootcamp",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Intern (Netra)",
-    location: "Skopje, North Macedonia",
-    description:
-      "Worked on layout and design adjustments for the company website. Collaborated with senior developers to implement UI improvements and gain practical experience with version control, responsive styling, and pixel-perfect layouting",
-    icon: React.createElement(FaReact),
-    date: "2020",
-  },
-  {
-    title: "Front-End Developer (Gsix)",
-    location: "Skopje, North Macedonia",
-    description:
-      "Developed and maintained front-end components using React. Responsible for implementing responsive UIs, integrating APIs, and ensuring design consistency across devices. Gained experience working in Agile environments and collaborating with cross-functional teams",
-    icon: React.createElement(FaReact),
-    date: "2020 - 2021",
-  },
-  {
-    title: "Front-End Developer (Digital Orange)",
-    location: "Skopje, North Macedonia",
-    description:
-      "Led front-end developer using Vue.js and Nuxt.js, building modular and scalable components. Developed a RESTful API to facilitate communication between systems, marking the transition into full-stack development. Took initiative in code optimization and improving developer workflows",
-    icon: React.createElement(FaVuejs),
-    date: "2021",
+    title: "Mobilen Communications Inc",
+    location: "Bitola, North Macedonia",
+    roles: [
+      {
+        title: "Team Lead & Product Owner",
+        date: "2026 - present",
+        description:
+          "Leading the development team and owning the product: defining the roadmap, prioritizing the backlog, organizing development flows, and turning business needs into clear requirements. Still hands-on with React Native and Laravel.",
+      },
+      {
+        title: "Full-Stack Engineer",
+        date: "2024 - 2026",
+        description:
+          "Designing and extending Laravel-based APIs for internal systems, integrating with third-party services, and optimizing performance. Handling deployments, database management, and process improvements to ensure reliability and scalability.",
+      },
+    ],
+    icon: React.createElement(FaLaravel),
+    date: "2024 - present",
   },
   {
     title: "Full-Stack Developer (ESOF Starter)",
@@ -91,12 +79,36 @@ export const experiencesData = [
     date: "2021 - 2024",
   },
   {
-    title: "Full-Stack Engineer (Mobilen Communications Inc)",
-    location: "Bitola, North Macedonia",
+    title: "Front-End Developer (Digital Orange)",
+    location: "Skopje, North Macedonia",
     description:
-      "Designing and extending Laravel-based APIs for internal systems, integrating with third-party services, and optimizing performance. Handling deployments, database management, and process improvements to ensure reliability and scalability.",
-    icon: React.createElement(FaLaravel),
-    date: "2024 - present",
+      "Led front-end developer using Vue.js and Nuxt.js, building modular and scalable components. Developed a RESTful API to facilitate communication between systems, marking the transition into full-stack development. Took initiative in code optimization and improving developer workflows",
+    icon: React.createElement(FaVuejs),
+    date: "2021",
+  },
+  {
+    title: "Front-End Developer (Gsix)",
+    location: "Skopje, North Macedonia",
+    description:
+      "Developed and maintained front-end components using React. Responsible for implementing responsive UIs, integrating APIs, and ensuring design consistency across devices. Gained experience working in Agile environments and collaborating with cross-functional teams",
+    icon: React.createElement(FaReact),
+    date: "2020 - 2021",
+  },
+  {
+    title: "Front-End Intern (Netra)",
+    location: "Skopje, North Macedonia",
+    description:
+      "Worked on layout and design adjustments for the company website. Collaborated with senior developers to implement UI improvements and gain practical experience with version control, responsive styling, and pixel-perfect layouting",
+    icon: React.createElement(FaReact),
+    date: "2020",
+  },
+  {
+    title: "Brainster",
+    location: "Skopje, North Macedonia",
+    description:
+      "Front-End Development Bootcamp",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019",
   },
 ] as const;
 

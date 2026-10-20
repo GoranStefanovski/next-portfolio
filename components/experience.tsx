@@ -44,7 +44,20 @@ export default function Experience() {
                         >
                             <h3 className='font-semibold capitalize'>{item.title}</h3>
                             <p className='font-normal !mt-0'>{item.location}</p>
-                            <p className='!mt-1 !font-normal text-gray-700 dark:text-white/75'>{item.description}</p>
+                            {"roles" in item ? (
+                                <ul className='mt-4 text-left border-l-2 border-gray-300 dark:border-white/20 pl-5 space-y-5'>
+                                    {item.roles.map((role, roleIndex) => (
+                                        <li key={roleIndex} className='relative'>
+                                            <span className={`absolute -left-[1.6rem] top-[0.4rem] h-3 w-3 rounded-full border-2 ${roleIndex === 0 ? 'bg-gray-900 border-gray-900 dark:bg-white dark:border-white' : 'bg-white border-gray-400 dark:bg-gray-900 dark:border-white/40'}`} />
+                                            <h4 className='font-semibold !m-0'>{role.title}</h4>
+                                            <p className='!m-0 !text-sm !font-normal text-gray-500 dark:text-white/50'>{role.date}</p>
+                                            <p className='!mt-1 !font-normal text-gray-700 dark:text-white/75'>{role.description}</p>
+                                        </li>
+                                    ))}
+                                </ul>
+                            ) : (
+                                <p className='!mt-1 !font-normal text-gray-700 dark:text-white/75'>{item.description}</p>
+                            )}
                             </VerticalTimelineElement>
                     </React.Fragment>
                 ))
