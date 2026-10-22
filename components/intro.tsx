@@ -64,10 +64,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Goran.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer</span> with about{" "}
+        <span className="font-bold">full-stack developer</span> and{" "}
+        <span className="font-bold">team lead</span> with over{" "}
         <span className="font-bold">half a decade</span> of experience. I build
-        modern <span className="italic">sites & apps</span>. My current stack is{" "}
-        <span className="underline">React (Next.js)</span> powered by robust <span className="underline">Laravel</span> backends.
+        modern <span className="italic">sites & apps</span> and lead the teams that ship them. My current stack is{" "}
+        <span className="underline">React (Next.js)</span> and <span className="underline">React Native</span>, powered by robust <span className="underline">Laravel</span> backends.
       </motion.h1>
 
       <motion.div

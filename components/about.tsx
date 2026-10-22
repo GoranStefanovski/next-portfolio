@@ -22,7 +22,7 @@ export default function About() {
         My journey into development started with a passion for building things and understanding how technology works. I began with front-end development, learning the fundamentals of HTML, CSS, and JavaScript, and gradually expanded into the backend and the wider engineering ecosystem.
       </p>
       <p className="mb-3">
-        Today, I enjoy working on the bigger picture of a product — not just how it looks, but how it works, scales, and fits together. I focus on building clean, intuitive interfaces backed by reliable APIs and well-structured systems, while keeping performance, usability, and maintainability in mind. Over the years, I&apos;ve worked on everything from public-facing websites and mobile applications to complex business platforms and internal systems. I&apos;ve also had the opportunity to lead teams, work directly with clients, and take ownership of projects from idea and architecture through development and delivery.
+        Today, I enjoy working on the bigger picture of a product - not just how it looks, but how it works, scales, and fits together. I focus on building clean, intuitive interfaces backed by reliable APIs and well-structured systems, while keeping performance, usability, and maintainability in mind. Over the years, I&apos;ve worked on everything from public-facing websites and mobile applications to complex business platforms and internal systems. I&apos;ve also had the opportunity to lead teams, work directly with clients, and take ownership of projects from idea and architecture through development and delivery.
       </p>
     </motion.section>
 

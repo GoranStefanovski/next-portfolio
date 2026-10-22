@@ -5,24 +5,31 @@ import ActiveSectionContextProvider from '@/context/active-section-context'
 import Footer from '@/components/footer'
 import ThemeSwitch from '@/components/theme-switch'
 import ThemeContextProvider from '@/context/theme-context'
-import Head from 'next/head'
+import type { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Goran Stefanovski - Tevidma | Personal Portfolio',
-  description: 'Experienced Full-Stack Developer with 5 years of expertise in building dynamic, responsive web applications, with main focus on React and Vue.js. Explore my portfolio to see how I turn complex ideas into innovative digital solutions.',
-  keywords: 'Goran Stefanovski, Tevidma, Full-Stack Developer, Web Development, JavaScript Developer, React Developer, Vue.js Developer, Front-End Development, Back-End Development, Responsive Web Design, Software Engineer, Goran Stefanovski Portfolio, Tevidma Portfolio',
+const description = 'Goran Stefanovski is a full-stack developer, team lead and project manager building web and mobile apps with React, React Native and Laravel.'
+
+export const metadata: Metadata = {
+  title: 'Goran Stefanovski - Full-Stack Developer & Team Lead | Tevidma',
+  description,
+  keywords: 'Goran Stefanovski, Tevidma, Full-Stack Developer, Team Lead, Project Manager, React Developer, React Native Developer, Laravel Developer, Next.js, Software Engineer, North Macedonia',
   metadataBase: new URL('https://tevidma.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Goran Stefanovski - Tevidma | Personal Portfolio',
-    description: "I'm Goran, a full-stack developer specializing in Vue (Nuxt.js) and TypeScript. Explore my portfolio to see modern, responsive websites and apps.",
+    title: 'Goran Stefanovski - Full-Stack Developer & Team Lead',
+    description,
     url: 'https://tevidma.com',
     siteName: 'Tevidma',
     type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Goran Stefanovski - Full-Stack Developer & Team Lead',
+    description,
   },
   robots: {
     index: true,
@@ -38,17 +45,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='!scroll-smooth'>
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <meta property="og:title" content={metadata.title} />
-        <meta property="og:description" content={metadata.description} />
-        <meta property="og:keywords" content={metadata.keywords} />
-        <meta property="og:url" content="https://tevidma.com" />
-        <meta property="og:type" content="website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
       <body className={`${inter.className} 
       bg-gray-50 
       text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
