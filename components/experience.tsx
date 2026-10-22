@@ -10,14 +10,17 @@ import SectionHeading from './section-heading'
 import { experiencesData } from '@/lib/data';
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from '@/context/theme-context';
+import { useInView } from 'react-intersection-observer';
 
 export default function Experience() {
-  const {ref, inView} = useSectionInView("Experience", 0.45);
+  const {ref} = useSectionInView("Experience", 0.2);
+  const {ref: timelineRef, inView} = useInView({ threshold: 0, triggerOnce: true });
   const { theme } = useTheme();
 
   return (
     <section ref={ref} id="experience" className='scroll-mt-28 mb-28 sm:mb-40 '>
         <SectionHeading>My Experience</SectionHeading>
+        <div ref={timelineRef}>
         <VerticalTimeline lineColor="">
             {
                 experiencesData.map((item, index) => (
@@ -63,6 +66,7 @@ export default function Experience() {
                 ))
             }
         </VerticalTimeline>
+        </div>
     </section>
   )
 }

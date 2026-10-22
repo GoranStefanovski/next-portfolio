@@ -55,10 +55,10 @@ export const experiencesData = [
     location: "Bitola, North Macedonia",
     roles: [
       {
-        title: "Team Lead & Product Owner",
+        title: "Team Lead & Project Manager",
         date: "2026 - present",
         description:
-          "Leading the development team and owning the product: defining the roadmap, prioritizing the backlog, organizing development flows, and turning business needs into clear requirements. Still hands-on with React Native and Laravel.",
+          "Planning and managing projects from kickoff to delivery: defining scope, setting timelines, allocating tasks, and tracking progress. Coordinating with stakeholders, managing risks and priorities, and leading the development team to ship on time, while staying hands-on with React Native and Laravel.",
       },
       {
         title: "Full-Stack Engineer",
