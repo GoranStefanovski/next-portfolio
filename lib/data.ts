@@ -62,7 +62,7 @@ export const experiencesData = [
       },
       {
         title: "Full-Stack Engineer",
-        date: "2024 - 2026",
+        date: "2024 - present",
         description:
           "Designing and extending Laravel-based APIs for internal systems, integrating with third-party services, and optimizing performance. Handling deployments, database management, and process improvements to ensure reliability and scalability.",
       },
